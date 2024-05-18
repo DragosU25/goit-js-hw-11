@@ -23,3 +23,5 @@ const getImage = async (query, page = 1, perPage = 40) => {
     throw error;
   }
 };
+
+export { getImage };

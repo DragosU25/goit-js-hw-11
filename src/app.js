@@ -1,3 +1,4 @@
+import { getImage } from './photos-api.js';
 // Importăm biblioteca Notiflix pentru notificări și SimpleLightbox pentru lightbox-ul imaginilor
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
