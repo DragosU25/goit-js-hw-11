@@ -1,7 +1,5 @@
-// Definim cheia de API și URL-ul de bază pentru API-ul Pixabay
 const API_KEY = '43921619-d69945085d06baa690e6f0201';
 const BASE_URL = 'https://pixabay.com/api/';
-
 // Funcția getImage face o cerere către API-ul Pixabay pentru a obține imagini bazate pe un anumit query
 const getImage = async (query, page = 1, perPage = 40) => {
   try {
