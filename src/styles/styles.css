@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeedec;
+  letter-spacing: 0.2em;
+  font-size: 0.85em;
+}
+
+.search-form {
+  background-color: darkcyan;
+  padding: 20px;
+  width: 100%;
+}
+
+input {
+  margin-left: 500px;
+  padding: 10px 20px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.small-img {
+  max-width: 350px;
+  height: 350px;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.small-img:hover {
+  scale: 1.05;
+}
+
+.info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  background-color: rgba(226, 223, 223);
+  margin: 0;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.load-more {
+  display: none; /* Ascunde butonul inițial */
+  margin: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: darkcyan;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.load-more:focus,
+.load-more:hover {
+  background-color: cadetblue;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+}
