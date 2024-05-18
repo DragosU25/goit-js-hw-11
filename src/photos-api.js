@@ -1,6 +1,6 @@
 const API_KEY = '43921619-d69945085d06baa690e6f0201';
 const BASE_URL = 'https://pixabay.com/api/';
-// Funcția getImage face o cerere către API-ul Pixabay pentru a obține imagini bazate pe un anumit query
+// Funcția getImage face o cerere către API pentru a obține imagini bazate pe un anumit query
 const getImage = async (query, page = 1, perPage = 40) => {
   try {
     // Folosim funcția fetch pentru a face cererea către API-ul Pixabay
